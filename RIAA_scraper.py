@@ -26,12 +26,33 @@ def scrape():
     # for x in range(1, 10):
     #     browser.click_link_by_id('loadmore')
 
+    #find table
     table = soup.find_all('table')[0]
 
-    print(table)
-
+    #read into pandas
     no_details = pd.read_html(str(table), header=0)
 
-    
+    #select the first table
+    no_details_cleanup = no_details[0]
+
+    #drop first column
+    no_details_cleanup.drop(no_details_cleanup.columns[0], axis=1, inplace=True)
+
+    #drop last column
+    no_details_cleanup.drop(no_details_cleanup.columns[5], axis=1, inplace=True)
+
+    ##clean certified units columns to have only number
+    # grab certified units column and split
+    c_units = no_details_cleanup['Certified Units (In Millions)'].str.split(" ", n = 1, expand = True)
+
+    # grab first column of df
+    cu = c_units[c_units.columns[0]]
+
+    # add to cleanup df
+    no_details_cleanup['Certified Units (Millions)'] = cu
+
+
+
+
 
 scrape()
