@@ -17,10 +17,10 @@ def scrape():
     #visit url
     browser.visit(riaa_url)
 
-    time.sleep(2)
+    # time.sleep(2)
 
     #click 100 times to load more results
-    for x in range(1, 10):
+    for x in range(1, 100):
         browser.click_link_by_id('loadmore')
         time.sleep(1)
 
