@@ -17,14 +17,15 @@ def scrape():
     #visit url
     browser.visit(riaa_url)
 
-    time.sleep(15)
+    time.sleep(2)
+
+    #click 100 times to load more results
+    for x in range(1, 10):
+        browser.click_link_by_id('loadmore')
+        time.sleep(1)
 
     riaa_html = browser.html 
     soup = BeautifulSoup(riaa_html, 'html.parser')
-
-    # #click 100 times to load more results
-    # for x in range(1, 100):
-    #     browser.click_link_by_id('loadmore')
 
     #find table
     table = soup.find_all('table')[0]
@@ -53,8 +54,5 @@ def scrape():
 
     # drop original certified units column
     no_details_cleanup.drop(no_details_cleanup.columns[4], axis=1, inplace=True)
-
-
-
 
 scrape()
