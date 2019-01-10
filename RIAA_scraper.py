@@ -36,6 +36,9 @@ def scrape():
     #select the first table
     no_details_cleanup = no_details[0]
 
+    # remove last row which has NaN
+    no_details_cleanup.drop(no_details_cleanup.index[(len(no_details_cleanup)-1)], inplace=True)
+
     #drop first column
     no_details_cleanup.drop(no_details_cleanup.columns[0], axis=1, inplace=True)
 
@@ -44,7 +47,7 @@ def scrape():
 
     ##clean certified units columns to have only number
     # grab certified units column and split
-    c_units = no_details_cleanup['Certified Units (In Millions)'].str.split(" ", n = 1, expand = True)
+    c_units = no_details_cleanup['Certified Units (In Millions)'].str.split('M', n = 1, expand = True)
 
     # grab first column of df
     cu = c_units[c_units.columns[0]]
@@ -54,5 +57,8 @@ def scrape():
 
     # drop original certified units column
     no_details_cleanup.drop(no_details_cleanup.columns[4], axis=1, inplace=True)
+
+    # export no_details_cleanup to csv
+    no_details_cleanup.to_csv('riaa_scrape_records.csv')
 
 scrape()
