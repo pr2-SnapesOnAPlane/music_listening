@@ -1,4 +1,4 @@
-from flask import Flask, render_template, url_for, jsonify
+from flask import Flask, render_template, url_for, jsonify, send_from_directory
 import os
 import requests
 import json
@@ -10,10 +10,9 @@ def homepage():
   return render_template('index.html')
 
 
-@app.route('/test')
-def get_file_content(test):
-    with open('test.json', 'r') as file:
-        return file.read()
+@app.route('/test.json')
+def get_file_content():
+  return send_from_directory('js', 'test.json')
   
 
 
