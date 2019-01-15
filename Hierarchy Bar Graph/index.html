@@ -17,7 +17,7 @@ rect.background {
 }
 </style>
 <body>
-<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 var margin = {top: 30, right: 120, bottom: 0, left: 120},
     width = 960 - margin.left - margin.right,
@@ -50,7 +50,7 @@ svg.append("g")
     .attr("class", "y axis")
   .append("line")
     .attr("y1", "100%");
-d3.json("test.json", function(error, root) {
+d3.json("resource/test.json", function(error, root) {
   if (error) throw error;
   partition.nodes(root);
   x.domain([0, root.value]).nice();
