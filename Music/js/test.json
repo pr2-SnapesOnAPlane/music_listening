@@ -1,0 +1,66 @@
+{
+  "name": "flare",
+  "children": [
+   {
+    "name": "rap",
+    "children": [
+     {
+      "name": "50 Cent",
+      "children": [
+       {"name": "GET RICH OR DIE TRYIN'", "size": 6},
+       {"name": "THE MASSACRE", "size": 5}
+      ]
+     },
+     {
+      "name": "2 Pac",
+      "children": [
+       {"name": "ALL EYEZ ON ME'", "size": 10},
+       {"name": "GREATEST HITS", "size": 10},
+       {"name": "R U STILL DOWN? (REMEMBER ME)", "size": 4}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "pop",
+    "children": [
+     {
+      "name": "Britney Spears",
+      "children": [
+       {"name": "...BABY ONE MORE TIME", "size": 14},
+       {"name": "OOPS!...I DID IT AGAIN", "size": 10}
+      ]
+     },
+     {
+      "name": "98 Degrees",
+      "children": [
+       {"name": "98 DEGREES & RISING", "size": 4},
+       {"name": "REVELATION", "size": 2}
+      ]
+     }
+    ]
+   },
+   {
+    "name": "rock",
+    "children": [
+     {
+      "name": "Eagles",
+      "children": [
+       {"name": "EAGLES/THEIR GREATEST HITS 1971 - 1975", "size": 38},
+       {"name": "HOTEL CALIFORNIA", "size": 26},
+       {"name": "EAGLES GREATEST HITS VOLUME II", "size": 11}
+      ]
+     },
+     {
+      "name": "3 Doors Down",
+      "children": [
+       {"name": "THE BETTER LIFE", "size": 6},
+       {"name": "AWAY FROM THE SUN", "size": 4},
+       {"name": "KRYPTONITE", "size": 4},
+       {"name": "HERE WITHOUT YOU", "size": 2}
+      ]
+     }
+    ]
+   }
+  ]
+ }
