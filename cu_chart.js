@@ -24,8 +24,18 @@ var myChart = new Chart(ctx, {
     options: {
         scales: {
             yAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Total Certified Units'
+                },
                 ticks: {
                     beginAtZero:true
+                }
+            }],
+            xAxes: [{
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Format Type'
                 }
             }]
         }
