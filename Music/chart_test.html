@@ -6,12 +6,41 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js'></script>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <canvas id="myChart" width="150" height="150"></canvas>
-    <canvas id="myChart2" width="150" height="150"></canvas>
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+          
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Homepage
+                    </a>
+                  </div>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a class="nav-link" href="./bar-hierarchy"><span class="c-d">Super Crazy Graph</a>
+                   </li>
+                    <li>
+                      <a class="nav-link" href="./Data.html"><span class="c-d">Super Crazy Table</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./chart_test"><span class="c-d">Kinda Normal Graph</a>
+                    </li> 
+                  </ul>
+                </div>
+              </nav>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <canvas id="myChart" width="150" height="150"></canvas>
+            </div>
+            <div class='col-md-6'>
+                <canvas id="myChart2" width="150" height="150"></canvas>
+            </div>
+    
+        </div>
+    </div>
     <script src='static/album_chart.js'></script>
     <script src='static/cu_chart.js'></script>
-
 </body>
 </html>
