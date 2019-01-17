@@ -1,5 +1,6 @@
 var ctx = document.getElementById("myChart2");
 var myChart = new Chart(ctx, {
+    responsive: false,
     type: 'bar',
     data: {
         labels: ["Album", "Single", "Shortform Album", "Video Longform"],
