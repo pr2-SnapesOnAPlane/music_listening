@@ -1,0 +1,86 @@
+genre,main_genre
+Blues,Blues
+"Blues, Pop",Blues
+"Blues, Pop, Folk, World, & Country",Blues
+Classical,Classical
+Electronic,Electronic
+"Electronic, Funk / Soul",Electronic
+"Electronic, Funk / Soul, Pop",Electronic
+"Electronic, Hip Hop",Electronic
+"Electronic, Hip Hop, Funk / Soul",Electronic
+"Electronic, Hip Hop, Latin",Electronic
+"Electronic, Hip Hop, Pop",Electronic
+"Electronic, Hip Hop, Reggae",Electronic
+"Electronic, Hip Hop, Rock",Electronic
+"Electronic, Hip Hop, Rock, Funk / Soul, Pop",Electronic
+"Electronic, Hip Hop, Rock, Pop",Electronic
+"Electronic, Jazz",Electronic
+"Electronic, Jazz, Rock, Pop",Electronic
+"Electronic, Latin",Electronic
+"Electronic, Latin, Funk / Soul, Pop",Electronic
+"Electronic, Pop",Electronic
+"Electronic, Pop, Folk, World, & Country",Electronic
+"Electronic, Reggae",Electronic
+"Electronic, Reggae, Pop",Electronic
+"Electronic, Rock",Electronic
+"Electronic, Rock, Funk / Soul, Pop",Electronic
+"Electronic, Rock, Funk / Soul, Pop, Stage & Screen",Electronic
+"Electronic, Rock, Pop",Electronic
+"Folk, World, & Country",Country
+Funk / Soul,Funk
+"Funk / Soul, Blues",Funk
+"Funk / Soul, Pop",Funk
+"Funk / Soul, Stage & Screen",Funk
+Hip Hop,Hip Hop
+"Hip Hop, Classical",Hip Hop
+"Hip Hop, Funk / Soul",Hip Hop
+"Hip Hop, Funk / Soul, Pop",Hip Hop
+"Hip Hop, Pop",Hip Hop
+"Hip Hop, Pop, Childrens",Hip Hop
+"Hip Hop, Reggae",Hip Hop
+"Hip Hop, Reggae, Funk / Soul, Pop",Hip Hop
+"Hip Hop, Reggae, Latin",Hip Hop
+"Hip Hop, Rock",Hip Hop
+"Hip Hop, Rock, Funk / Soul",Hip Hop
+"Hip Hop, Rock, Latin, Pop",Hip Hop
+"Hip Hop, Stage & Screen",Hip Hop
+Jazz,Jazz
+"Jazz, Classical, Folk, World, & Country",Jazz
+"Jazz, Funk / Soul",Jazz
+"Jazz, Latin, Funk / Soul, Blues, Pop, Stage & Screen",Jazz
+"Jazz, Pop",Jazz
+"Jazz, Rock",Jazz
+"Jazz, Rock, Blues",Jazz
+"Jazz, Rock, Funk / Soul",Jazz
+Latin,Latin
+"Latin, Funk / Soul, Folk, World, & Country",Latin
+"Latin, Pop",Latin
+Non-Music,Non-Music
+"Non-Music, Folk, World, & Country",Non-Music
+Pop,Pop
+"Pop, Childrens, Stage & Screen",Pop
+"Pop, Classical",Pop
+"Pop, Folk, World, & Country",Pop
+"Pop, Stage & Screen",Pop
+Reggae,Reggae
+"Reggae, Pop",Reggae
+Rock,Rock
+"Rock, Blues",Rock
+"Rock, Blues, Folk, World, & Country",Rock
+"Rock, Blues, Pop",Rock
+"Rock, Classical",Rock
+"Rock, Folk, World, & Country",Rock
+"Rock, Funk / Soul",Rock
+"Rock, Funk / Soul, Pop",Rock
+"Rock, Funk / Soul, Pop, Folk, World, & Country",Rock
+"Rock, Latin, Funk / Soul",Rock
+"Rock, Latin, Funk / Soul, Blues, Pop",Rock
+"Rock, Latin, Pop",Rock
+"Rock, Non-Music",Rock
+"Rock, Non-Music, Pop",Rock
+"Rock, Pop",Rock
+"Rock, Pop, Folk, World, & Country",Rock
+"Rock, Pop, Stage & Screen",Rock
+"Rock, Reggae",Rock
+"Rock, Stage & Screen",Stage & Screen
+Stage & Screen,Stage & Screen
