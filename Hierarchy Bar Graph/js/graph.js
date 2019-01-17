@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-text {
-  font: 10px sans-serif;
-}
-rect.background {
-  fill: white;
-}
-.axis {
-  shape-rendering: crispEdges;
-}
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-}
-</style>
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<script>
 var margin = {top: 30, right: 120, bottom: 0, left: 120},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
@@ -50,7 +29,7 @@ svg.append("g")
     .attr("class", "y axis")
   .append("line")
     .attr("y1", "100%");
-d3.json("test.json", function(error, root) {
+d3.json("/test.json", function(error, root) {
   if (error) throw error;
   partition.nodes(root);
   x.domain([0, root.value]).nice();
@@ -190,4 +169,3 @@ function stack(i) {
     return tx;
   };
 }
-</script>
